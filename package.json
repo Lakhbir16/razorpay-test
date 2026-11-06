@@ -1,0 +1,19 @@
+{
+  "name": "razorpay-tech-partner-integration",
+  "version": "1.0.0",
+  "description": "Razorpay Tech Partner OAuth & Payment Gateway Testing Suite",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "tunnel": "npx localtunnel --port 5000",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "razorpay",
+    "tech-partner",
+    "oauth",
+    "payments"
+  ],
+  "author": "Lakhbir",
+  "license": "ISC"
+}
